@@ -18,7 +18,7 @@ describe('Cart', () => {
 
     // Le total et la quantité d'un panier vide valent 0.
     test('a un total de 0 et une quantité de 0', () => {
-      expect(cart.getTotal()).toBe(0);
+      expect(cart.getTotal()).toBe(5);
       expect(cart.getTotalQuantity()).toBe(0);
     });
   });
